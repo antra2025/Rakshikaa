@@ -1,73 +1,176 @@
-# Welcome to your Lovable project
+🌸 Rakshika – Your Safety Companion
+<p align="center"> <b>Your Guardian Angel for Women’s Safety</b> </p> <p align="center"> <img src="https://img.shields.io/badge/React-18-blue?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript" /> <img src="https://img.shields.io/badge/TailwindCSS-Utility--First-38bdf8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/Supabase-Backend-3ecf8e?logo=supabase" /> <img src="https://img.shields.io/badge/Vite-Fast-BrightGreen?logo=vite" /> <img src="https://img.shields.io/badge/License-MIT-purple" /> </p>
+📌 Overview
 
-## Project info
+Rakshika is a modern women safety web application built using React, TypeScript, Tailwind CSS, and Supabase.
+It provides instant emergency assistance, secure authentication, location sharing, and centralized safety resources in a clean, accessible interface.
 
-**URL**: https://lovable.dev/projects/60473b71-8371-4a19-873d-612e4d5ced11
+The goal of Rakshika is to combine technology + accessibility + safety awareness into one digital platform.
 
-## How can I edit this code?
+✨ Key Features
+🔴 SOS Emergency Button
 
-There are several ways of editing your application.
+One-click emergency trigger
 
-**Use Lovable**
+Immediate access during critical situations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/60473b71-8371-4a19-873d-612e4d5ced11) and start prompting.
+📞 Quick Emergency Dial
 
-Changes made via Lovable will be committed automatically to this repo.
+Women Helpline – 1091
 
-**Use your preferred IDE**
+Police Emergency – 112
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ambulance – 108
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+National Commission for Women – 7827170170
 
-Follow these steps:
+📍 Live Location Sharing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Share real-time location during emergencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+👥 Community Support
 
-# Step 3: Install the necessary dependencies.
-npm i
+Support-based interface
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Safe space for awareness and help
+
+📚 Safety Tips Section
+
+Preventive guidance and awareness resources
+
+🔐 Secure Authentication
+
+Supabase-based authentication
+
+Protected user dashboard
+
+🛠️ Tech Stack
+Frontend
+
+⚛️ React (Vite)
+
+🟦 TypeScript
+
+🎨 Tailwind CSS
+
+🧩 ShadCN UI Components
+
+Backend & Services
+
+🟢 Supabase (Authentication + Database)
+
+Development Tools
+
+Vite
+
+ESLint
+
+PostCSS
+
+TypeScript Config
+
+📸 Screenshots
+🏠 Home Page – SOS & Emergency Access
+<img width="1881" height="942" alt="Rakshika Home" src="https://github.com/user-attachments/assets/403ad27f-b1cc-4cc2-996d-041cdb0b4bc7" />
+📞 Emergency Dial Section
+<img width="1888" height="944" alt="Emergency Dial" src="https://github.com/user-attachments/assets/a1cc71c1-f551-4573-983f-12e9f9c589cf" />
+👩‍💻 Dashboard / Features View
+<img width="1889" height="923" alt="Dashboard View" src="https://github.com/user-attachments/assets/6f680899-b331-4e0b-8bc5-b9a07a2d7602" />
+📁 Project Structure
+rakshika/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── integrations/supabase/
+│   ├── utils/
+│   └── types/
+│
+├── supabase/
+│   ├── config.toml
+│   └── migrations/
+│
+├── public/
+├── index.html
+├── package.json
+├── tailwind.config.ts
+└── vite.config.ts
+
+🚀 Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/rakshika.git
+cd rakshika
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Configure Environment Variables
+
+Create a .env file in the root directory:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4️⃣ Run Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open your browser at:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🗄️ Supabase Setup
 
-## What technologies are used for this project?
+Create a project at https://supabase.com
 
-This project is built with:
+Copy your Project URL and Anon Key
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Add them to your .env file
 
-## How can I deploy this project?
+Apply database migrations if required
 
-Simply open [Lovable](https://lovable.dev/projects/60473b71-8371-4a19-873d-612e4d5ced11) and click on Share -> Publish.
+🎯 Project Objective
 
-## Can I connect a custom domain to my Lovable project?
+Rakshika aims to:
 
-Yes, you can!
+Provide immediate digital emergency assistance
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Centralize important emergency contact services
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Enable secure and personalized user access
+
+Promote women safety awareness through technology
+
+🔮 Future Enhancements
+
+📲 SMS alerts to emergency contacts
+
+🎙️ Voice-triggered SOS
+
+🧠 AI-based threat detection
+
+📊 Emergency history tracking
+
+📱 Progressive Web App (PWA) support
+
+🤝 Contribution
+
+Contributions are welcome.
+
+Fork the repository
+
+Create a feature branch
+
+Commit your changes
+
+Submit a pull request
+
+📄 License
+
+This project is licensed under the MIT License.
+
+⚠️ Disclaimer
+
+Rakshika is a digital support platform and does not replace official emergency services.
+In life-threatening situations, immediately contact local authorities.
